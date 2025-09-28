@@ -53,7 +53,13 @@ Usa un bucle for para contar cuántas veces aparece la letra "a" en el texto.
 
 Usa un bucle while para sumar los números del 1 al 10 y muestra el resultado final.
 
-**Ejercicio 9 – Invertir una lista**
+**Ejercicio 9 - Implementar un for tradicional**
+
+Implementa el funcionamiento de un bucle for tradiccional en Python.
+
+Nota: Merece la pena mirar la función range().
+
+**Ejercicio 10 – Invertir una lista**
 
 Crea una lista [1, 2, 3, 4, 5].
 
@@ -61,7 +67,7 @@ Usa un bucle for para crear una nueva lista con los elementos en orden inverso.
 
 Imprime la nueva lista.
 
-**Ejercicio 10 – Ordenar una lista**
+**Ejercicio 11 – Ordenar una lista**
 
 Dada una lista:
 
