@@ -259,8 +259,32 @@ for u in usuarios:
         print(u)
 
 # Extra: ordenar por edad descendente
+# Podemos usar la función sorted(), que devuelve una NUEVA lista ordenada (no modifica la original).
+
+# Sintaxis general de sorted():
+# sorted(iterable, key=función_que_devuelve_valor_para_ordenar, reverse=False)
+# - iterable: la lista o conjunto de elementos a ordenar.
+# - key: una función que indica con qué valor se debe comparar (por ejemplo, la edad).
+# - reverse=True significa que el orden será descendente (de mayor a menor).
+
+# Aquí usamos una función 'lambda' para indicar que queremos ordenar por el valor de la clave "edad".
+
 usuarios_ordenados = sorted(usuarios, key=lambda x: x["edad"], reverse=True)
-print("\nOrdenados por edad:", usuarios_ordenados)
+
+# ¿Qué es una función lambda?
+# Una 'lambda' es una forma corta de definir una función anónima (sin nombre).
+# Sirve cuando queremos una función muy simple en una sola línea.
+# Ejemplo:
+# lambda x: x["edad"]
+# Significa exactamente lo mismo que esto:
+# def obtener_edad(x):
+#     return x["edad"]
+#
+# Pero en vez de definir una función aparte, la escribimos directamente dentro de sorted().
+
+# En este caso, por cada elemento 'x' de la lista 'usuarios', la función lambda devuelve x["edad"].
+# Así, sorted() compara los usuarios usando sus edades y los ordena.
+# reverse=True hace que el orden sea de mayor a menor edad.
 
 # Ejercicio 11
 import numpy as np
