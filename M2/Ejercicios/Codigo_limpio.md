@@ -79,10 +79,9 @@ Arregla este código para que se comporte de manera correcta.
 ```python
 total = 0
 
-def agregar_venta(monto):
-    global total
-    total += monto
-    print("Venta agregada:", monto)
+def agregar_venta(cantidad):
+    total += cantidad
+    print("Venta agregada:", cantidad)
 ```
 
 ## Ejercicio 7: Espagueti
@@ -90,14 +89,14 @@ def agregar_venta(monto):
 Refactoriza esta desgracia para que sea buen código.
 
 ```python
-usuarios = ["ana", "luis", "carlos"]
-edades = [19, 30, 17]
+l1 = ["ana", "luis", "carlos"]
+l2 = [19, 30, 17]
 
-for i in range(len(usuarios)):
-    if edades[i] >= 18:
-        print(usuarios[i], "es mayor de edad")
+for i in range(len(l1)):
+    if l2[i] >= 18:
+        print(l1[i], "es", "mayor", "de edad")
     else:
-        print(usuarios[i], "es menor de edad")
+        print(l1[i], "es menor de edad")
 ```
 
 # Ejercicio 9: Buscar duplicados
