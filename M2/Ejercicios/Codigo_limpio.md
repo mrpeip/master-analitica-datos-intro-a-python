@@ -99,7 +99,7 @@ for i in range(len(l1)):
         print(l1[i], "es menor de edad")
 ```
 
-# Ejercicio 9: Buscar duplicados
+## Ejercicio 8: Buscar duplicados
 
 Escribe una función que reciba una lista y devuelva una nueva lista con los valores duplicados.
 
