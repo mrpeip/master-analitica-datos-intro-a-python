@@ -28,7 +28,7 @@ def calcular_descuento_producto1(precio):
     return precio - (precio * 0.1)
 
 def calcular_descuento_producto2(precio):
-    return precio - (precio * 0.1)
+    return precio - (precio * 0.8)
 ```
 
 ## Ejercicio 3: Separación de responsabilidades
