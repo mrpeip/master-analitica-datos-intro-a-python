@@ -166,12 +166,22 @@ for est in estudiantes:
     est["media"] = sum(est["notas"]) / len(est["notas"])
 
 # Obtener el estudiante con media más alta
-mejor = max(estudiantes, key=lambda e: e["media"])
-print("Mejor estudiante:", mejor["nombre"], "Media:", mejor["media"])
+mejor_estudiante = ""
+mas_alta = 0
+for estudiante in estudiantes:
+    if estudiante["media"] > mas_alta:
+        mejor_estudiante = estudiante["nombre"]
+        mas_alta = estudiante["media"]
+
+    
+print(f"Mejor estudiante: {mejor_estudiante} con Media = {mas_alta}")
 
 # Extra: ordenar por media (descendente)
-ordenados = sorted(estudiantes, key=lambda e: e["media"], reverse=True)
-print(ordenados)
+tamaño_dict = len(estudiantes)
+for i in range(tamaño_dict - 1):
+    for j in range(i + 1, tamaño_dict):
+        if estudiantes[j]["media"] > estudiantes[i]["media"]:
+            estudiantes[i], estudiantes[j] = estudiantes[j], estudiantes[i]
 
 
 # Ejercicio 8
