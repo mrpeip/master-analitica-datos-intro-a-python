@@ -1,0 +1,42 @@
+id_venta,id_cliente,fecha_venta,producto,categoria,cantidad,precio_unitario,importe_total,metodo_pago,estado
+1,5,2024-01-12,Portátil HP 15,Informática,1,699.99,699.99,Tarjeta,pagado
+2,3,2024/02/03,Silla ergonómica,Oficina,2,129.90,259.80,Transferencia,PAGADO
+3,10,2024-13-07,Smartphone Samsung A55,Electrónica,1,379.00,379.00,Tarjeta,pagado
+4,1,,Monitor LG 27",Informática,1,199.00,199.00,PayPal,pagado
+5,15,2024-03-01,Teclado mecánico Logitech,Informática,-1,89.95,-89.95,Transferencia,pagado
+6,20,2024-03-12,Impresora HP DeskJet,Oficina,1,-3,-3,Tarjeta,pagado
+7,8,2024-03-22,Smartwatch Xiaomi,Electrónica,2,79.90,159.80,Efectivo,pagado
+8,13,2024-04-05,Auriculares Sony WH-CH520,Electrónica,UNO,59.99,59.99,Tarjeta,pagado
+9,27,2024-04-19,,Accesorios,1,39.99,39.99,PayPal,pagado
+10,7,2024-04-28,Tablet Lenovo M10,Electrónica,1,199.00,199.00,Tarjeta,pagado
+11,11,2024-05-02,Escritorio ajustable,Oficina,1,289.00,289.00,Transferencia,pagado
+12,4,2024-05-10,Disco SSD 1TB Samsung,Informática,1,129.00,129.00,Tarjeta,pagado
+13,2,2024-05-22,Cámara Canon EOS 2000D,Electrónica,1,499.00,499.00,PayPal,pagado
+14,999,2024-06-01,Router TP-Link AX55,Redes,1,89.99,89.99,Tarjeta,pagado
+15,14,2024-06-15,Ratón inalámbrico Logitech,Informática,3,29.99,89.97,Efectivo,pagado
+16,12,2024-06-25,Teclado y ratón combo,Informática,2,45.00,90.00,Tarjeta,pagado
+17,16,2024-07-03,Altavoces Creative Pebble,Electrónica,1,39.99,39.99,Transferencia,pagado
+18,18,2024-07-12,Monitor Samsung 24",Informática,1,159.00,159.00,Tarjeta,Pendiente
+19,30,2024-07-22,Teclado inalámbrico Logitech,Informática,1,59.99,,PayPal,pagado
+20,6,2024-07-30,Proyector Epson,Electrónica,1,329.00,329.00,Tarjeta,pagado
+21,19,2024-08-02,Disco Duro Externo 2TB,Informática,2,89.99,179.98,Transferencia,pagado
+22,25,2024-08-14,Webcam Logitech C270,Accesorios,1,39.99,39.99,PayPal,pagado
+23,23,2024-08-25,Micrófono Blue Yeti,Audio,1,129.00,129.00,Transferencia,pagado
+24,26,2024-09-03,Impresora multifunción Canon,Oficina,1,139.00,139.00,Tarjeta,Pagadoo
+25,22,2024-09-12,Tablet Samsung S9,Electrónica,1,799.00,799.00,PayPal,pagado
+26,28,2024-09-22,Cargador USB-C Anker,Accesorios,3,19.99,59.97,Efectivo,pagado
+27,21,2024-09-30,Smartphone iPhone 14,Electrónica,1,1099.00,1099.00,Tarjeta,pagado
+28,29,2024-10-10,Router ASUS RT-AX86U,Redes,1,249.00,249.00,Transferencia,pagado
+29,17,2024-10-15,Disco SSD NVMe 2TB,Informática,1,229.00,229.00,Tarjeta,pagado
+30,24,2024-10-20,Monitor Dell 27",Informática,1,9999999999,219.00,PayPal,PagGADO
+31,5,2024-10-22,Silla gaming DXRacer,Oficina,1,319.00,319.00,Tarjeta,pagado
+31,5,2024-10-22,Silla gaming DXRacer,Oficina,1,319.00,319.00,Tarjeta,pagado
+32,1,2024-10-25,Teclado retroiluminado Corsair,Informática,1,109.99,109.99,PayPal,pagado
+33,15,2024-10-27,Hub USB 3.0 4 puertos,Accesorios,2,19.99,39.98,Efectivo,pagado
+34,8,2024-10-29,Tablet Amazon Fire HD,Electrónica,1,129.99,129.99,Tarjeta,pagado
+35,,2024-10-30,Disco Duro SSD Externo,Informática,1,159.00,159.00,Transferencia,pagado
+36,2,2024-10-30,Impresora Epson EcoTank,Oficina,1000,229.00,229000.00,Tarjeta,pagado
+37,30,2024-10-30,Smartwatch Apple Watch SE,Electrónica,1,299.00,299.00,Tarjeta,pendiente
+38,10,2024-10-30,Auriculares Bose QC45,Audio,1,349.00,349.00,Transferencia,pagado
+39,27,2024-10-30,Webcam Logitech Brio,Accesorios,1,189.00,189.00,PayPal,pagado
+40,19,2024-10-30,Micrófono Rode NT-USB,Audio,1,149.00,149.00,Tarjeta,pagado
