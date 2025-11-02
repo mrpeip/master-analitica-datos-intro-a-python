@@ -1,7 +1,7 @@
 ## Ejercicio 1:
 
 Dado este Dataframe:
-
+```python
 datos = {
     'Mes': ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun'],
     'Ventas': [150, 200, 180, 220, 250, 300],
@@ -9,6 +9,7 @@ datos = {
 }
 
 df_ventas = pd.DataFrame(datos)
+```
 
 Crea un gráfico de línea con matplotlib que muestre Ventas y Gastos por Mes
 
@@ -17,7 +18,7 @@ Usa diferentes colores y agrega una leyenda
 ## Ejercicio 2:
 
 Dado este DataFrame:
-
+```python
 datos_productos = {
     'Producto': ['A', 'B', 'C', 'D', 'E'],
     'Ventas_2023': [450, 320, 580, 210, 390],
@@ -25,7 +26,7 @@ datos_productos = {
 }
 
 df_productos = pd.DataFrame(datos_productos)
-
+```
 Crea un gráfico de barras comparando ventas 2023 vs 2024 usando seaborn y matplotlib
 
 Pista: Puedes usar melt() para transformar el DataFrame
@@ -33,7 +34,7 @@ Pista: Puedes usar melt() para transformar el DataFrame
 ## Ejercicio 3:
 
 Dado este DataFrame:
-
+```python
 np.random.seed(42)
 datos_empleados = {
     'Salario': np.random.normal(50000, 15000, 200),
@@ -42,7 +43,7 @@ datos_empleados = {
 }
 
 df_empleados = pd.DataFrame(datos_empleados)
-
+```
 Crea un subplot con 2 filas y 2 columnas que contenga:
 
 1. Histograma de Salarios
@@ -51,7 +52,7 @@ Crea un subplot con 2 filas y 2 columnas que contenga:
 4. Gráfico de densidad de Edad
 
 ## Ejercicio 4:
-
+```python
 np.random.seed(123)
 datos_complejos = {
     'Ingresos': np.random.normal(5000, 1500, 100),
@@ -62,6 +63,7 @@ datos_complejos = {
 }
 
 df_correlacion = pd.DataFrame(datos_complejos)
+```
 
 Crea un heatmap de correlaciones usando seaborn
 
@@ -114,3 +116,24 @@ Crea un reporte completo de visualizaciones que incluya:
 3. Relación entre variables
 4. Segmentación por categoría favorita
 5. Recomendaciones basadas en los hallazgos
+
+## Ejercicio 7:
+```python
+np.random.seed(42)
+n = 200
+datos_3d = {
+    'Tamaño': np.random.uniform(10, 50, n),
+    'Precio': np.random.uniform(100, 1000, n),
+    'Rating': np.random.uniform(1, 5, n),
+    'Unidades_Vendidas': np.random.randint(50, 500, n),
+    'Categoria': np.random.choice(['A', 'B', 'C'], n),
+    'Region': np.random.choice(['Norte', 'Sur', 'Este', 'Oeste'], n)
+}
+
+df_3d = pd.DataFrame(datos_3d)
+```
+ Crea un scatter plot 3D interactivo que muestre:
+- Tamaño, Precio y Rating en 3D
+- Color por Categoría
+- Tamaño de marcador por Unidades_Vendidas
+- Información de hover con Region
